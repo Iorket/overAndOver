@@ -12,7 +12,3 @@ public class XmlTask {
         return null;
     }
 }
-
-class Reader{}
-class Book{}
-
