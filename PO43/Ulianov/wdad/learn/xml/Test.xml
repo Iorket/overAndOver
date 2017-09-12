@@ -1,3 +1,49 @@
-<lbrary>
-
-</lbrary>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <reader secondname="Alan" firstname="Sony">
+        <book>
+            <author>
+                <firstname>Edvard</firstname>
+                <secondname>Eddison</secondname>
+            </author>
+            <name>Moonlight</name>
+            <printyear>1995</printyear>
+            <genre value="novel"/>
+        </book>
+        <takedate day="12" month="2" year="1992"></takedate>
+    </reader>
+    <reader secondname="Foxy" firstname="Mulder">
+        <book>
+            <author>
+                <firstname>Alan</firstname>
+                <secondname>Po</secondname>
+            </author>
+            <name>Lion</name>
+            <printyear>1991</printyear>
+            <genre value="other"/>
+        </book>
+        <takedate day="13" month="5" year="2003"></takedate>
+    </reader>
+    <reader secondname="Foxy" firstname="Sandy">
+        <book>
+            <author>
+                <firstname>Dory</firstname>
+                <secondname>Mol</secondname>
+            </author>
+            <name>France Kafka</name>
+            <printyear>1966</printyear>
+            <genre value="story"/>
+        </book>
+        <takedate day="12" month="12" year="2012"></takedate>
+        <book>
+            <author>
+                <firstname>Marry</firstname>
+                <secondname>Owner</secondname>
+            </author>
+            <name>Love and Death</name>
+            <printyear>2008</printyear>
+            <genre other="Si-Fi"/>
+        </book>
+    </reader>
+</library>
